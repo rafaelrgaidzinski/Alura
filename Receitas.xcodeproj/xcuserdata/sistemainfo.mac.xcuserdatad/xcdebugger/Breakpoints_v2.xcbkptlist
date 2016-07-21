@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ReceitasTableViewController.swift"
+            timestampString = "490795370.314831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ReceitasTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.receitas.getter : Swift.Array&lt;Receitas.Receita&gt;"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795371.310148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.receitas.setter : Swift.Array&lt;Receitas.Receita&gt;"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795371.31061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (style : __C.UITableViewStyle) -&gt; Receitas.ReceitasTableViewController"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795371.310896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Receitas.ReceitasTableViewController"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795371.311285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Receitas.ReceitasTableViewController&gt;"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795371.311466"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ReceitasTableViewController.swift"
+            timestampString = "490795368.573517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ReceitasTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.adiciona (Receitas.Receita) -&gt; ()"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795368.576513"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for Receitas.AdicionaReceitaDelegate.adiciona (Receitas.Receita) -&gt; () in conformance Receitas.ReceitasTableViewController : Receitas.AdicionaReceitaDelegate in Receitas"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795368.576782"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ReceitasTableViewController.swift"
+            timestampString = "490795382.462185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ReceitasTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (style : __C.UITableViewStyle) -&gt; Receitas.ReceitasTableViewController"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795395.532906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Receitas.ReceitasTableViewController"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795395.534358"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ReceitasTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Receitas.ReceitasTableViewController&gt;"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ReceitasTableViewController.swift"
+                  timestampString = "490795395.534614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ReceitasTableViewController.swift"
+            timestampString = "490795431.652183"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ViewController.swift"
+            timestampString = "490796449.555131"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ViewController.__deallocating_deinit"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ViewController.swift"
+                  timestampString = "490805990.110243"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Receitas.ViewController"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ViewController.swift"
+                  timestampString = "490805990.114273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Receitas.ViewController&gt;"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/ViewController.swift"
+                  timestampString = "490805990.114467"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ViewController.swift"
+            timestampString = "490817460.564817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/Ingredientes.swift"
+            timestampString = "490805995.352428"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "Ingredientes"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.Ingredientes.__deallocating_deinit"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/Ingredientes.swift"
+                  timestampString = "490805995.360596"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Receitas.Ingredientes.deinit"
+                  moduleName = "Receitas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sistemainfo.mac/Desktop/Swift/Receitas/Receitas/Ingredientes.swift"
+                  timestampString = "490805995.360851"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/IngredientesViewController.swift"
+            timestampString = "490815004.780016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "IngredientesViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receitas/ViewController.swift"
+            timestampString = "490817460.564817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
