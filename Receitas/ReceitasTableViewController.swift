@@ -14,7 +14,23 @@ class ReceitasTableViewController: UITableViewController, AdicionaReceitaDelegat
     
     func adiciona(refeicao: Receita){
         receitas.append(refeicao)
+        let diretorio = getUsuarioDiretorio()
+        let arquivo = "\(diretorio)/Receitas"
+        NSKeyedArchiver.archiveRootObject(receitas, toFile: arquivo)
         tableView.reloadData()
+    }
+    
+    func getUsuarioDiretorio() -> String{
+        let usuarioDireorio = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        return usuarioDireorio[0] as String
+    }
+    
+    override func viewDidLoad() {
+        let diretorio = getUsuarioDiretorio()
+        let arquivo = "\(diretorio)/Receitas"
+        if let carregaArquivo = NSKeyedUnarchiver.unarchiveObjectWithFile(arquivo){
+            receitas = carregaArquivo as! Array
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -48,18 +64,11 @@ class ReceitasTableViewController: UITableViewController, AdicionaReceitaDelegat
             }
             let linha = indexPath!.row
             let receita = receitas[linha]
-            var mensagem = "Nota: \(receita.nota) \n\n Ingredientes: \n"
             
-            for item in receita.items {
-                mensagem += "* \(item.nome) - \(item.calorias) calorias \n"
-            }
-            
-            let detalhes = UIAlertController(title: receita.nome,
-                                             message: mensagem,
-                                             preferredStyle: UIAlertControllerStyle.Alert)
-            let botaoOK = UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: nil)
-            detalhes.addAction(botaoOK)
-            presentViewController(detalhes, animated: true, completion: nil)
+            RemoveReceitaController(controlador: self).mostraAlerta(receita, handler: {action in
+                self.receitas.removeAtIndex(linha)
+                self.tableView.reloadData()
+            })
         }
     }
     

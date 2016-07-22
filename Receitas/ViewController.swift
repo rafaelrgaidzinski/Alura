@@ -26,8 +26,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var items: Array<Ingredientes> = []
     var itemsSelecionados: Array<Ingredientes> = []
     
+    func getUsuarioDiretorio() -> String{
+        let usuarioDireorio = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        return usuarioDireorio[0] as String
+    }
     
     override func viewDidLoad() {
+        let diretorio = getUsuarioDiretorio()
+        let arquivo = "\(diretorio)/Receitas"
+        if let carregaArquivo = NSKeyedUnarchiver.unarchiveObjectWithFile(arquivo){
+            items = carregaArquivo as! Array
+        }
         let botaoAdicionaIngrediente = UIBarButtonItem(title: "Adicionar Ingrediente",
                                                        style: UIBarButtonItemStyle.Plain,
                                                        target: self,
@@ -37,20 +46,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func adicionarIngrediente(){
         let telaAdicionarIngrediente = IngredientesViewController(delegate: self)
-        if let navigation = navigationController{
+        if let navigation = self.navigationController{
             navigation.pushViewController(telaAdicionarIngrediente, animated: true)
         }
     }
     
     func adicionarItem(item: Ingredientes) {
         items.append(item)
-        if tabelaIgredientes == nil{
-            return
+        if let tabela = tabelaIgredientes {
+            let diretorio = getUsuarioDiretorio()
+            let arquivo = "\(diretorio)/Receitas"
+             NSKeyedArchiver.archiveRootObject(items, toFile: arquivo)
+            tabela.reloadData()
+        } else {
+                Alerta.init(controlador: self).mostraAlerta("Um erro ocorreu ao tentar carregar a tabela!")
         }
-        tabelaIgredientes.reloadData()
     }
-    
-   
+
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
@@ -82,36 +94,39 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    
-    @IBAction func botaoAdicionar(sender: UIButton) {
-        if campoReceita == nil || campoNota == nil {
-            return
+    func getReceita() -> Receita? {
+        if ((campoReceita!.text?.isEmpty == true) || (campoNota!.text?.isEmpty == true)) {
+            return nil
         }
         
-        let receita = campoReceita!.text
+        let nome = campoReceita!.text
         let nota = Int(campoNota!.text!)
         
-        if nota == nil{
-            return
+        if nota == nil {
+            return nil
         }
         
-        let refeicao = Receita(nome: receita!, nota: nota!)
+        let receita = Receita(nome: nome!, nota: nota!)
+        receita.items = itemsSelecionados
         
-        refeicao.items = itemsSelecionados
+        print("Receita \(receita.nome) com ingredientes \(receita.items) adicionada com nota \(receita.nota)")
         
-        print("Receita \(refeicao.nome) com ingredientes \(refeicao.items) adicionada com nota \(refeicao.nota)")
-        
-        if delegate == nil{
-            return
+        return receita
+    }
+    
+    @IBAction func botaoAdicionar(sender: UIButton) {
+        if let receita = getReceita(){
+            if let receitas = delegate{
+                receitas.adiciona(receita)
+                if let navigation = self.navigationController{
+                    navigation.popViewControllerAnimated(true)
+                } else{
+                    Alerta.init(controlador: self).mostraAlerta("Um erro ocorreu ao carregar a tela, mas a receita foi adicionada!")
+                }
+                return
+            }
         }
-        
-        delegate!.adiciona(refeicao)
-        
-        if let navigation = navigationController{
-            navigation.popViewControllerAnimated(true)
-        }
-        
-        
+        Alerta.init(controlador: self).mostraAlerta("Não foi possível adicionar uma nova receita!")
     }
     
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9011CA411D41145200649518 /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011CA3F1D41145200649518 /* IngredientesViewController.swift */; };
 		9011CA421D41145200649518 /* IngredientesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9011CA401D41145200649518 /* IngredientesViewController.xib */; };
+		90156A2B1D424A43001CF386 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90156A2A1D424A43001CF386 /* Alerta.swift */; };
+		905BE2731D428DFA00310E6D /* RemoveReceitaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905BE2721D428DFA00310E6D /* RemoveReceitaController.swift */; };
 		90C5F0141D40E46B00A4DBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C5F0131D40E46B00A4DBB9 /* AppDelegate.swift */; };
 		90C5F0161D40E46B00A4DBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C5F0151D40E46B00A4DBB9 /* ViewController.swift */; };
 		90C5F0191D40E46B00A4DBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C5F0171D40E46B00A4DBB9 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		9011CA3F1D41145200649518 /* IngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
 		9011CA401D41145200649518 /* IngredientesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientesViewController.xib; sourceTree = "<group>"; };
+		90156A2A1D424A43001CF386 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		905BE2721D428DFA00310E6D /* RemoveReceitaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveReceitaController.swift; sourceTree = "<group>"; };
 		90C5F0101D40E46A00A4DBB9 /* Receitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Receitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C5F0131D40E46B00A4DBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C5F0151D40E46B00A4DBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 			children = (
 				90C5F0171D40E46B00A4DBB9 /* Main.storyboard */,
 				9011CA401D41145200649518 /* IngredientesViewController.xib */,
+				90156A2A1D424A43001CF386 /* Alerta.swift */,
+				905BE2721D428DFA00310E6D /* RemoveReceitaController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -302,6 +308,8 @@
 				90C5F0471D40E6F000A4DBB9 /* Ingredientes.swift in Sources */,
 				90C5F0141D40E46B00A4DBB9 /* AppDelegate.swift in Sources */,
 				90C5F0491D40E9DF00A4DBB9 /* ReceitasTableViewController.swift in Sources */,
+				90156A2B1D424A43001CF386 /* Alerta.swift in Sources */,
+				905BE2731D428DFA00310E6D /* RemoveReceitaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
